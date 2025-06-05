@@ -5,9 +5,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~DddylTQC#d6aodo57m9uSsqNw_EM11d3jaEx5WMZZdqidiAjKD-Q",
 // add your Session Id
-AUTO_BIO: process.env.AUTO_BIO || "false", 
+AUTO_BIO: process.env.AUTO_BIO || "true", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -72,11 +72,11 @@ DEV: process.env.DEV || "923043788282",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view
-ANTI_CALL: process.env.ANTI_CALL || "false",
+ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY PLEASE DONT CALL ME_*",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
